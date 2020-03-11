@@ -203,7 +203,6 @@ def options():
 
 def main():
 	args = options()
-	args.dataset_path = os.path.join(os.getcwd(), os.pardir, os.pardir, 'ModelNet40', 'ModelNet40')
 
 	torch.backends.cudnn.deterministic = True
 	torch.manual_seed(args.seed)

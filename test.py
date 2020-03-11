@@ -79,13 +79,12 @@ def options():
 						help='flag for training step size delta')
 
 	# settings for on training
-	parser.add_argument('--pretrained', default='checkpoints/exp/models/best_model.t7', type=str,
+	parser.add_argument('--pretrained', default='pretrained/best_model.t7', type=str,
 						metavar='PATH', help='path to pretrained model file (default: null (no-use))')
 	parser.add_argument('--device', default='cuda:0', type=str,
 						metavar='DEVICE', help='use CUDA if available')
 
 	args = parser.parse_args()
-	args.dataset_path = os.path.join(os.getcwd(), os.pardir, os.pardir, 'ModelNet40', 'ModelNet40')
 	return args
 
 def main():
