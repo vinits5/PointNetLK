@@ -12,6 +12,11 @@ This code is tested using torch 1.3.0+cu92 and torchvision 0.4.1+cu92.
 3. Test PointNetLK:
 > python test.py
 
+### Pretrained Models:
+1. best_model: 			PointNetLK pretrained model.
+2. best_ptnet_model: 	PointNet_features model.
+3. classifier: 			PointNet classification model.
+
 ### Requirements:
 1. PyTorch
 2. ModelNet40 [[Link]](https://modelnet.cs.princeton.edu/)
