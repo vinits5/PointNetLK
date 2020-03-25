@@ -11,6 +11,8 @@ This code is tested using torch 1.3.0+cu92 and torchvision 0.4.1+cu92.
 > python main.py
 3. Test PointNetLK:
 > python test.py
+4. Test PointNetLK (with sample data):
+> python test_sample.py
 
 ### Pretrained Models:
 1. **best_model**: 			PointNetLK pretrained model.
